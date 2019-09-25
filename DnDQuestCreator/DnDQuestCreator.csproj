@@ -83,6 +83,12 @@
       <DependentUpon>RandomQuestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="QuestCreator\Save.cs" />
+    <Compile Include="RandomShopkeeperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomShopkeeperForm.Designer.cs">
+      <DependentUpon>RandomShopkeeperForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     <EmbeddedResource Include="RandomQuestForm.resx">
       <DependentUpon>RandomQuestForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RandomShopkeeperForm.resx">
+      <DependentUpon>RandomShopkeeperForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RandomQuestGeneration\" />
+    <Folder Include="ShopkeeperGenerator\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -161,6 +171,7 @@
     <Content Include="randomgenerator\roleplay-quest-desc.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="randomgenerator\shopinfo.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

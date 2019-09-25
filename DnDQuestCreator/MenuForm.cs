@@ -13,12 +13,14 @@ namespace DnDQuestCreator {
 
 		public static MainForm questCreatorForm;
 		public static RandomQuestForm randQuestForm;
+		public static RandomShopkeeperForm randShopForm;
 
 		public MenuForm() {
 			InitializeComponent();
 
 			if (questCreatorForm == null) questCreatorForm = new MainForm();
 			if (randQuestForm == null) randQuestForm = new RandomQuestForm();
+			if (randShopForm == null) randShopForm = new RandomShopkeeperForm();
 		}
 
 		private void questCreatorButton_Click(object sender, EventArgs e) {
@@ -27,6 +29,10 @@ namespace DnDQuestCreator {
 
 		private void randomQuestButton_Click(object sender, EventArgs e) {
 			randQuestForm.Show();
+		}
+
+		private void shopkeeperGeneratorButton_Click(object sender, EventArgs e) {
+			randShopForm.Show();
 		}
 	}
 }

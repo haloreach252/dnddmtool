@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<shop type="fletcher">
+  <product>
+    <name>Light Crossbow</name>
+    <cost type="cheap">18 GP</cost>
+    <cost type="normal">25 GP</cost>
+    <cost type="expensive">38 GP</cost>
+    <limited>false</limited>
+    <locale>7</locale>
+  </product>
+  <product>
+    <name>Shortbow</name>
+    <cost type="cheap">18 GP</cost>
+    <cost type="normal">25 GP</cost>
+    <cost type="expensive">38 GP</cost>
+    <limited>true</limited>
+    <locale>7</locale>
+  </product>
+  <product>
+    <name>Hand Crossbow</name>
+    <cost type="cheap">56 GP</cost>
+    <cost type="normal">75 GP</cost>
+    <cost type="expensive">113 GP</cost>
+    <limited>false</limited>
+    <locale>6</locale>
+  </product>
+  <product>
+    <name>Heavy Crossbow</name>
+    <cost type="cheap">38 GP</cost>
+    <cost type="normal">50 GP</cost>
+    <cost type="expensive">75 GP</cost>
+    <limited>false</limited>
+    <locale>7</locale>
+  </product>
+  <product>
+    <name>Longbow</name>
+    <cost type="cheap">38 GP</cost>
+    <cost type="normal">50 GP</cost>
+    <cost type="expensive">75 GP</cost>
+    <limited>true</limited>
+    <locale>7</locale>
+  </product>
+</shop>
