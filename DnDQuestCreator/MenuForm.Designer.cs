@@ -30,12 +30,12 @@
 			// 
 			// questCreatorButton
 			// 
-			this.questCreatorButton.BackColor = System.Drawing.SystemColors.ControlDark;
-			this.questCreatorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-			this.questCreatorButton.Location = new System.Drawing.Point(17, 15);
-			this.questCreatorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.questCreatorButton.BackColor = System.Drawing.Color.Indigo;
+			this.questCreatorButton.Font = new System.Drawing.Font("Dungeon", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.questCreatorButton.ForeColor = System.Drawing.Color.White;
+			this.questCreatorButton.Location = new System.Drawing.Point(10, 10);
 			this.questCreatorButton.Name = "questCreatorButton";
-			this.questCreatorButton.Size = new System.Drawing.Size(415, 120);
+			this.questCreatorButton.Size = new System.Drawing.Size(320, 100);
 			this.questCreatorButton.TabIndex = 0;
 			this.questCreatorButton.Text = "Quest Creator";
 			this.questCreatorButton.UseVisualStyleBackColor = false;
@@ -43,12 +43,12 @@
 			// 
 			// randomQuestButton
 			// 
-			this.randomQuestButton.BackColor = System.Drawing.SystemColors.ControlDark;
-			this.randomQuestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-			this.randomQuestButton.Location = new System.Drawing.Point(16, 150);
-			this.randomQuestButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.randomQuestButton.BackColor = System.Drawing.Color.Indigo;
+			this.randomQuestButton.Font = new System.Drawing.Font("Dungeon", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.randomQuestButton.ForeColor = System.Drawing.Color.White;
+			this.randomQuestButton.Location = new System.Drawing.Point(10, 120);
 			this.randomQuestButton.Name = "randomQuestButton";
-			this.randomQuestButton.Size = new System.Drawing.Size(415, 120);
+			this.randomQuestButton.Size = new System.Drawing.Size(320, 100);
 			this.randomQuestButton.TabIndex = 1;
 			this.randomQuestButton.Text = "Random Quest Generator";
 			this.randomQuestButton.UseVisualStyleBackColor = false;
@@ -56,12 +56,12 @@
 			// 
 			// shopkeeperGeneratorButton
 			// 
-			this.shopkeeperGeneratorButton.BackColor = System.Drawing.SystemColors.ControlDark;
-			this.shopkeeperGeneratorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-			this.shopkeeperGeneratorButton.Location = new System.Drawing.Point(17, 285);
-			this.shopkeeperGeneratorButton.Margin = new System.Windows.Forms.Padding(4);
+			this.shopkeeperGeneratorButton.BackColor = System.Drawing.Color.Indigo;
+			this.shopkeeperGeneratorButton.Font = new System.Drawing.Font("Dungeon", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.shopkeeperGeneratorButton.ForeColor = System.Drawing.Color.White;
+			this.shopkeeperGeneratorButton.Location = new System.Drawing.Point(10, 230);
 			this.shopkeeperGeneratorButton.Name = "shopkeeperGeneratorButton";
-			this.shopkeeperGeneratorButton.Size = new System.Drawing.Size(415, 120);
+			this.shopkeeperGeneratorButton.Size = new System.Drawing.Size(320, 100);
 			this.shopkeeperGeneratorButton.TabIndex = 2;
 			this.shopkeeperGeneratorButton.Text = "Random Shopkeep Generator";
 			this.shopkeeperGeneratorButton.UseVisualStyleBackColor = false;
@@ -69,14 +69,13 @@
 			// 
 			// MenuForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.ClientSize = new System.Drawing.Size(448, 418);
+			this.ClientSize = new System.Drawing.Size(339, 341);
 			this.Controls.Add(this.shopkeeperGeneratorButton);
 			this.Controls.Add(this.randomQuestButton);
 			this.Controls.Add(this.questCreatorButton);
-			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "MenuForm";
 			this.Text = "Menu";
 			this.ResumeLayout(false);

@@ -51,8 +51,7 @@ namespace DnDQuestCreator {
 		}
 
 		private void backButton_Click(object sender, EventArgs e) {
-			FormManager.instance.menuForm.Show();
-			FormManager.instance.questCreatorForm.Hide();
+			
 		}
 	}
 }

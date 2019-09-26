@@ -141,6 +141,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\textures\buttonIcon.png" />
     <Content Include="randomgenerator\bounty-quest-desc.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

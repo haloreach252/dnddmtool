@@ -1,43 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<shop type="fletcher">
-  <product>
-    <name>Light Crossbow</name>
-    <cost type="cheap">18 GP</cost>
-    <cost type="normal">25 GP</cost>
-    <cost type="expensive">38 GP</cost>
-    <limited>false</limited>
-    <locale>7</locale>
-  </product>
-  <product>
-    <name>Shortbow</name>
-    <cost type="cheap">18 GP</cost>
-    <cost type="normal">25 GP</cost>
-    <cost type="expensive">38 GP</cost>
-    <limited>true</limited>
-    <locale>7</locale>
-  </product>
-  <product>
-    <name>Hand Crossbow</name>
-    <cost type="cheap">56 GP</cost>
-    <cost type="normal">75 GP</cost>
-    <cost type="expensive">113 GP</cost>
-    <limited>false</limited>
-    <locale>6</locale>
-  </product>
-  <product>
-    <name>Heavy Crossbow</name>
-    <cost type="cheap">38 GP</cost>
-    <cost type="normal">50 GP</cost>
-    <cost type="expensive">75 GP</cost>
-    <limited>false</limited>
-    <locale>7</locale>
-  </product>
-  <product>
-    <name>Longbow</name>
-    <cost type="cheap">38 GP</cost>
-    <cost type="normal">50 GP</cost>
-    <cost type="expensive">75 GP</cost>
-    <limited>true</limited>
-    <locale>7</locale>
-  </product>
-</shop>
+<products>
+
+  <!-- Locale codes: 1 - rural, 2 - urban, 4 - premium, 3 - rural & urban, 5 - rural & premium, 6 - urban & premium, 7 - all -->
+  <!-- Shop Types: Blacksmith, Potion, Arcane, Leatherworker, Fletcher, General, Jeweler, Tailor, Temple -->
+  <!-- Template: <product type="" name="" cheapcost=" P" normalcost=" P" expensivecost=" P" limited="" locale=""/> -->
+
+  <fletcher>
+    <product type="fletcher" name="Light Crossbow" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="7"/>
+    <product type="fletcher" name="Shortbow" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="true" locale="7"/>
+    <product type="fletcher" name="Hand Crossbow" cheapcost="56 GP" normalcost="75 GP" expensivecost="113 GP" limited="false" locale="6"/>
+    <product type="fletcher" name="Heavy Crossbow" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="7"/>
+    <product type="fletcher" name="Longbow" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+
+    <product type="fletcher" name="Arrows (20)" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+    <product type="fletcher" name="Crossbow Bolts (20)" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="fletcher" name="Case, Crossbow Bolts" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="fletcher" name="Quiver" cheapcost="7 CP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+  </fletcher>
+    
+  <blacksmith>
+    <product type="blacksmith" name="Dagger" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Handaxe" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Javelin" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Light Hammer" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Mace" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Sickle" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Spear" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+
+    <product type="blacksmith" name="Battleaxe" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Flail" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Glaive" cheapcost="15 GP" normalcost="20 GP" expensivecost="30 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Greataxe" cheapcost="22 GP" normalcost="30 GP" expensivecost="45 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Greatsword" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Halberd" cheapcost="15 GP" normalcost="20 GP" expensivecost="30 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Lance" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Longsword" cheapcost="11 GP" normalcost="15 GP" expensivecost="22 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Maul" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Morningstar" cheapcost="11 GP" normalcost="15 GP" expensivecost="22 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Pike" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Rapier" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Scimitar" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Shortsword" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Trident" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="War Pick" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Warhammer" cheapcost="11 GP" normalcost="15 GP" expensivecost="22 GP" limited="false" locale="7"/>
+
+    <product type="blacksmith" name="Studded Leather Armor" cheapcost="33 GP" normalcost="45 GP" expensivecost="68 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Chain Shirt Armor" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Scale Mail Armor" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Breastplate Armor" cheapcost="300 GP" normalcost="400 GP" expensivecost="600 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Half Plate Armor" cheapcost="562 GP" normalcost="750 GP" expensivecost="1125 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Ring Mail Armor" cheapcost="22 GP" normalcost="30 GP" expensivecost="45 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Chain Mail Armor" cheapcost="56 GP" normalcost="75 GP" expensivecost="113 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Splint" cheapcost="150 GP" normalcost="200 GP" expensivecost="300 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Plate" cheapcost="1125 GP" normalcost="1500 GP" expensivecost="2250 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Shield" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="true" locale="7"/>
+
+    <product type="blacksmith" name="Ball Bearings (bag of 1000)" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Bell" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Block and Tackle" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Chain (10 ft)" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Crowbar" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Grappling Hook" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Hammer" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Hammer, Sledge" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Hunting Trap" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Lamp" cheapcost="3 SP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Lantern, Bullseye" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="4"/>
+    <product type="blacksmith" name="Lantern, Hooded" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Lock" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Manacles" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Mirror, Steel" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Pick, Miner's" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Piton" cheapcost="3 CP" normalcost="5 CP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Pot, Iron" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="3"/>
+    <product type="blacksmith" name="Spikes, Iron" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Whetstone" cheapcost="1 CP" normalcost="1 CP" expensivecost="2 GP" limited="true" locale="7"/>
+
+    <product type="blacksmith" name="Carpenter's Tools" cheapcost="6 GP" normalcost="8 GP" expensivecost="12 GP" limited="false" locale="7"/>
+    <product type="blacksmith" name="Mason's Tools" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="6"/>
+    <product type="blacksmith" name="Smith's Tools" cheapcost="15 GP" normalcost="20 GP" expensivecost="30 GP" limited="true" locale="7"/>
+    <product type="blacksmith" name="Tinker's Tools" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="4"/>
+  </blacksmith>
+
+  <leatherworker>
+    <product type="leatherworker" name="Leather Armor" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="true" locale="7"/>
+    <product type="leatherworker" name="Studded Leather Armor" cheapcost="33 GP" normalcost="45 GP" expensivecost="68 GP" limited="false" locale="7"/>
+    <product type="leatherworker" name="Hide Armor" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="true" locale="7"/>
+    <product type="leatherworker" name="Shield" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="6"/>
+    
+    <product type="leatherworker" name="Sling" cheapcost="7 CP" normalcost="1 SP" expensivecost="2 SP" limited="false" locale="7"/>
+    
+    <product type="leatherworker" name="Waterskin" cheapcost="1 SP" normalcost="2 SP" expensivecost="3 SP" limited="true" locale="7"/>
+    <product type="leatherworker" name="Cobbler's Tools" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="leatherworker" name="Leatherworkers's Tools" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="true" locale="7"/>
+    <product type="leatherworker" name="Bagpipes" cheapcost="22 GP" normalcost="30 GP" expensivecost="45 GP" limited="false" locale="4"/>
+    <product type="leatherworker" name="Drum" cheapcost="4 GP" normalcost="6 GP" expensivecost="9 GP" limited="false" locale="6"/>
+  </leatherworker>
+
+  <potion>
+    <product type="potion" name="Acid (vial)" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="7"/>
+    <product type="potion" name="Alchemist's Fire (flask)" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="6"/>
+    <product type="potion" name="Antitoxin (vial)" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+    <product type="potion" name="Bottle, Glass" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="true" locale="7"/>
+    <product type="potion" name="Component Pouch" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="7"/>
+    <product type="potion" name="Flask" cheapcost="1 CP" normalcost="2 CP" expensivecost="3 CP" limited="true" locale="7"/>
+    <product type="potion" name="Healer's Kit" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="6"/>
+    <product type="potion" name="Ink (1 oz bottle)" cheapcost="7 GP" normalcost="10 GP" expensivecost="15 GP" limited="false" locale="4"/>
+    <product type="potion" name="Jug" cheapcost="1 CP" normalcost="2 CP" expensivecost="3 CP" limited="true" locale="7"/>
+    <product type="potion" name="Oil (flask)" cheapcost="7 CP" normalcost="1 SP" expensivecost="2 SP" limited="false" locale="7"/>
+    <product type="potion" name="Perfume (vial)" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="4"/>
+    <product type="potion" name="Poison, Basic (vial)" cheapcost="75 GP" normalcost="100 GP" expensivecost="150 GP" limited="true" locale="7"/>
+    <product type="potion" name="Vial" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+
+    <product type="potion" name="Potion of healing (Basic)" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+    <product type="potion" name="Potion of healing (Greater)" cheapcost="100 GP" normalcost="200 GP" expensivecost="500 GP" limited="true" locale="6"/>
+    <product type="potion" name="Potion of healing (Superior)" cheapcost="1000 GP" normalcost="2000 GP" expensivecost="5000 GP" limited="true" locale="6"/>
+    <product type="potion" name="Potion of healing (Supreme)" cheapcost="10000 GP" normalcost="20000 GP" expensivecost="50000 GP" limited="true" locale="4"/>
+
+    <product type="potion" name="Alchemist's Supplies" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="6"/>
+    <product type="potion" name="Brewer's Supplies" cheapcost="15 GP" normalcost="20 GP" expensivecost="30 GP" limited="true" locale="7"/>
+    <product type="potion" name="Cook's Utensils" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="6"/>
+    <product type="potion" name="Herbalism Kit" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="7"/>
+    <product type="potion" name="Poisoner's Kit" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="false" locale="7"/>
+
+    <product type="potion" name="Potion (Common)" cheapcost="38 GP" normalcost="50 GP" expensivecost="75 GP" limited="true" locale="7"/>
+    <product type="potion" name="Potion (Uncommon)" cheapcost="175 GP" normalcost="250 GP" expensivecost="375 GP" limited="true" locale="7"/>
+    <product type="potion" name="Potion (Rare)" cheapcost="1750 GP" normalcost="2500 GP" expensivecost="3750 GP" limited="false" locale="6"/>
+
+    <product type="potion" name="Spell Components" cheapcost="(x0.75)" normalcost="See Spell" expensivecost="(x1.25)" limited="true" locale="7"/>
+  </potion>
+
+  <arcane>
+    <product type="arcane" name="" cheapcost=" P" normalcost=" P" expensivecost=" P" limited="" locale=""/>
+  </arcane>
+
+  <tailor>
+    <product type="tailor" name="Backpack" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="7"/>
+    <product type="tailor" name="Basket" cheapcost="3 SP" normalcost="4 SP" expensivecost="6 SP" limited="true" locale="7"/>
+    <product type="tailor" name="Bedroll" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="tailor" name="Blanket" cheapcost="3 SP" normalcost="5 SP" expensivecost="8 SP" limited="true" locale="7"/>
+
+    <product type="tailor" name="Clothes, Common" cheapcost="3 SP" normalcost="5 SP" expensivecost="8 SP" limited="true" locale="7"/>
+    <product type="tailor" name="Clothes, Costume" cheapcost="3 GP" normalcost="5 GP" expensivecost="8 GP" limited="false" locale="4"/>
+    <product type="tailor" name="Clothes, Fine" cheapcost="11 GP" normalcost="15 GP" expensivecost="23 GP" limited="false" locale="6"/>
+    <product type="tailor" name="Clothes, Traveler's" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="7"/>
+
+    <product type="tailor" name="Component Pouch" cheapcost="18 GP" normalcost="25 GP" expensivecost="38 GP" limited="false" locale="4"/>
+    <product type="tailor" name="Pouch" cheapcost="3 SP" normalcost="5 SP" expensivecost="8 SP" limited="true" locale="7"/>
+    <product type="tailor" name="Robes" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="false" locale="7"/>
+    <product type="tailor" name="Sack" cheapcost="1 CP" normalcost="1 CP" expensivecost="2 CP" limited="true" locale="7"/>
+    <product type="tailor" name="Tent, Two-person" cheapcost="1 GP" normalcost="2 GP" expensivecost="3 GP" limited="false" locale="6"/>
+    <product type="tailor" name="Weaver's Tools" cheapcost="7 SP" normalcost="1 GP" expensivecost="2 GP" limited="true" locale="7"/>
+  </tailor>
+
+  <jeweler>
+    <product type="jeweler" name="" cheapcost=" P" normalcost=" P" expensivecost=" P" limited="" locale=""/>
+  </jeweler>
+
+  <temple>
+    <product type="temple" name="" cheapcost=" P" normalcost=" P" expensivecost=" P" limited="" locale=""/>
+  </temple>
+
+  <general>
+    <product type="general" name="" cheapcost=" P" normalcost=" P" expensivecost=" P" limited="" locale=""/>
+  </general>
+  
+</products>
